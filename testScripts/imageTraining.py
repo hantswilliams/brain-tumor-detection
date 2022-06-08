@@ -27,5 +27,7 @@ df_yes[0] = df_yes[0].apply(lambda x: yesUrl + x)
 
 merge = pd.concat([df_no, df_yes])
 
+
+
 # save to csv
 merge.to_csv('/Users/hantswilliams/Downloads/brainnoyes.csv')
